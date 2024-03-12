@@ -1,0 +1,24 @@
+void setup() {
+  pinMode(2, OUTPUT); //untuk mengeluarkan kabel arduino 2,4,6
+  pinMode(4, OUTPUT);
+  pinMode(6, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(2, HIGH); //logikanya lampu 2 menyala
+  delay(1000);           //lama lampu 2 selama 1s
+  digitalWrite(2, LOW);  //logikanya lampu 2 mati 
+
+  delay(1000);           //lama lampu selanjutnta menunggu selama 1s
+
+  digitalWrite(4, HIGH); //logikanya lampu 4 menyala
+  delay(1000);           //lama lampu 4 selama 1s
+  digitalWrite(4, LOW);  //logikanya lampu 4 mati 
+
+  delay(1000);           //lama lampu selanjutnta menunggu selama 1s
+
+  digitalWrite(6, HIGH); //logikanya lampu 6 menyala
+  delay(1000);           //lama lampu 6 selama 1s
+  digitalWrite(6, LOW);  //logikanya lampu 6 mati 
+  delay(1000);           //lama lampu selanjutnta menunggu selama 1s
+}
